@@ -6,19 +6,28 @@ body {
 
 // Navbar 
 .navbar-brand {
-    margin-left: 50px !important;
+    margin-left: 30px !important;
 
     // color: #Fe001e !important;
     img {
         max-height: 40px;
     }
-    .logo {
+    .logo-k {
+        margin-top: -5px;
         max-height: 50px;
+    }
+    .logo {
+        margin-top: 5px;
+        max-height: 50px;
+    }
+    .logo-download {
+    margin-left: 10px !important;
+        max-height: 25px;
     }
 }
 
 .navbar-toggler{
-    margin-right: 50px !important;
+    margin-right: 27px !important;
 }
 
 .btn-navbar-right {
@@ -228,7 +237,7 @@ header {
     background-image: linear-gradient(rgba(181, 225, 111, 1), rgba(168, 248, 150, 1));
     color: #000000;
     margin-top: 10px;
-    margin-left: -20px !important;
+    margin-left: -2px !important;
     
 }
 

@@ -5,19 +5,30 @@ body {
 }
 
 .navbar-brand {
-  margin-left: 50px !important;
+  margin-left: 30px !important;
 }
 
 .navbar-brand img {
   max-height: 40px;
 }
 
-.navbar-brand .logo {
+.navbar-brand .logo-k {
+  margin-top: -5px;
   max-height: 50px;
 }
 
+.navbar-brand .logo {
+  margin-top: 5px;
+  max-height: 50px;
+}
+
+.navbar-brand .logo-download {
+  margin-left: 10px !important;
+  max-height: 25px;
+}
+
 .navbar-toggler {
-  margin-right: 50px !important;
+  margin-right: 27px !important;
 }
 
 .btn-navbar-right {
@@ -205,7 +216,7 @@ header .img-hero {
   background-image: linear-gradient(#b5e16f, #a8f896);
   color: #000000;
   margin-top: 10px;
-  margin-left: -20px !important;
+  margin-left: -2px !important;
 }
 
 .section-benefits .title-text {
