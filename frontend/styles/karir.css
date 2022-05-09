@@ -1,0 +1,834 @@
+body {
+  background-color: #fff;
+  font-family: 'Alegreya', serif;
+  color: #bd5b24;
+}
+
+.navbar-brand {
+  margin-left: 50px !important;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-brand .logo {
+  max-height: 50px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: 40px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #Fe001e;
+  margin-left: 50px !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: salmon !important;
+}
+
+.btn-login {
+  background-color: #Fe001e;
+  color: #fff;
+  margin-left: 50px !important;
+}
+
+.btn-login:hover {
+  color: #fff;
+}
+
+header {
+  margin-top: 50px;
+  padding: 180px 0 155px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-5%, #Fe001e), to(#fff));
+  background-image: linear-gradient(180deg, #Fe001e -5%, #fff 100%);
+  background-size: contain;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -95px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background: #fff;
+  padding-left: 15px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 480px;
+  background: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
+  color: #fff;
+}
+
+.section-networks {
+  background-color: #fff;
+  margin-top: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-benefits {
+  background-color: #fbe8e4;
+  margin-top: -10px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.section-benefits h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-benefits img {
+  max-width: 100%;
+}
+
+.section-benefits button {
+  background-color: #e9564c;
+  color: #fff;
+}
+
+.section-benefits .circle {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0rem;
+  border-radius: 9999px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5e16f), to(#a8f896));
+  background-image: linear-gradient(#b5e16f, #a8f896);
+  color: #000000;
+}
+
+.section-benefits .title-text {
+  font: 600 1.875rem/2.25rem Poppins, sans-serif;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.025em;
+}
+
+.section-benefits .title-caption {
+  font: 500 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.section-benefits .text-caption {
+  font: 400 1rem/1.75rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #ffa426;
+}
+
+.section-caradaftar {
+  background-color: #fff;
+  margin-top: -10px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.section-caradaftar h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-caradaftar img {
+  max-width: 100%;
+}
+
+.section-caradaftar button {
+  background-color: #e9564c;
+  color: #fff;
+}
+
+.section-caradaftar .circle {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0rem;
+  border-radius: 9999px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5e16f), to(#a8f896));
+  background-image: linear-gradient(#b5e16f, #a8f896);
+  color: #000000;
+}
+
+.section-caradaftar .title-text {
+  font: 600 1.875rem/2.25rem Poppins, sans-serif;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.025em;
+}
+
+.section-caradaftar .title-caption {
+  font: 500 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.section-caradaftar .text-caption {
+  font: 400 1rem/1.75rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #ffa426;
+}
+
+.section-caratopup {
+  background-color: #fbe8e4;
+  margin-top: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-caratopup h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-caratopup img {
+  max-width: 100%;
+}
+
+.section-carabelanja {
+  background-color: #fff;
+  margin-top: -10px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.section-carabelanja h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-carabelanja img {
+  max-width: 100%;
+}
+
+.section-carabelanja button {
+  background-color: #e9564c;
+  color: #fff;
+}
+
+.section-carabelanja .circle {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0rem;
+  border-radius: 9999px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5e16f), to(#a8f896));
+  background-image: linear-gradient(#b5e16f, #a8f896);
+  color: #000000;
+}
+
+.section-carabelanja .title-text {
+  font: 600 1.875rem/2.25rem Poppins, sans-serif;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.025em;
+}
+
+.section-carabelanja .title-caption {
+  font: 500 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+.section-carabelanja .text-caption {
+  font: 400 1rem/1.75rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #ffa426;
+}
+
+.section-testimonials-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonials-heading h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-testimonials-content {
+  margin-top: -300px;
+  padding-bottom: 400px;
+}
+
+.section-testimonials-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonials-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonials-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonials-content .card-testimonial .testimonials {
+  font-size: 26px;
+  text-align: center;
+  color: #6e6e6e;
+  font-weight: 200;
+}
+
+.section-testimonials-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonials-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonials-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.section-testimonials-content .btn-get-started:hover {
+  color: #fff;
+}
+
+.section-testimonials-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+
+.section-testimonials-content .btn-need-help:hover {
+  color: #C3C3C3;
+}
+
+.faq-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  margin-top: -450px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: #777;
+}
+
+.faq-container h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.faq-container img {
+  max-width: 100%;
+}
+
+.hr-line {
+  width: 80%;
+  margin: auto;
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 80%;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: auto;
+  font-size: 17px;
+}
+
+.faq-body {
+  margin: auto;
+  /* text-align: center; */
+  width: 50%;
+  padding: auto;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+.section-kedephone {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-10%, #fff), to(#fbe8e4));
+  background-image: linear-gradient(180deg, #fff -10%, #fbe8e4 100%);
+  padding-top: 10px;
+}
+
+.section-kedephone h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
+
+.section-kedephone img {
+  max-width: 50%;
+}
+
+.section-kedephone .download-now {
+  max-width: 30%;
+}
+
+.section-kedephone .title-caption {
+  margin-left: 10px;
+}
+
+.section-kedephone button {
+  background-color: #e9564c;
+  color: #fff;
+}
+
+.section-kedephone .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.section-kedephone .btn-get-started:hover {
+  color: #fff;
+}
+
+.section-kedephone .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+
+.section-kedephone .btn-need-help:hover {
+  color: #C3C3C3;
+}
+
+.section-kedephone .circle {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 0rem;
+  border-radius: 9999px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5e16f), to(#a8f896));
+  background-image: linear-gradient(#b5e16f, #a8f896);
+  color: #000000;
+  background-color: #FF9E53;
+}
+
+.section-kedephone .circle:hover {
+  color: #fff;
+}
+
+.section-footer a {
+  color: #071c4d;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-informations .text-orange {
+  color: #FF9E53;
+  font-weight: bold;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FF9E53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  color: #fff;
+}
+
+.section-details-content .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .bank .bank-item .description p {
+  font-family: Alegreya;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.section-details-content .bank .bank-item .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.section-details-content .btn-add-now:hover {
+  color: #fff;
+}
+
+.section-details-content .input-group-text {
+  background-color: transparent;
+}
+
+.section-details-content h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-details-content .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background: #071c4d;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  color: #fff;
+}
+
+body footer {
+  background-color: rgba(245, 7, 7, 0.877);
+  color: #Fe001e;
+  padding-top: 72px !important;
+  padding-bottom: 36px !important;
+}
+
+body footer h5 {
+  font-weight: 600 !important;
+  size: 16px !important;
+  line-height: 150%;
+  color: #ECF1F4;
+}
+
+body footer .address p {
+  font-weight: 400 !important;
+  size: 16px !important;
+  line-height: 150%;
+  color: #ECF1F4;
+}
+
+body footer .nav-footer p {
+  font-weight: 700 !important;
+  size: 16px !important;
+  line-height: 150%;
+  color: #ECF1F4;
+}
+
+body footer .nav-footer a {
+  font-weight: 400 !important;
+  size: 16px !important;
+  color: #ECF1F4;
+}
+
+body footer li {
+  margin-bottom: 12px;
+}
+
+body footer .social-media a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+body footer .copyright {
+  margin-top: 76px;
+  padding-top: 36px;
+}
+
+body footer .copyright p {
+  font-weight: 400 !important;
+  size: 16px !important;
+  color: #ECF1F4;
+}
+
+body footer .copyright a {
+  font-weight: 400 !important;
+  size: 16px !important;
+  color: #fbe8e4;
+}
+
+body .cl-light {
+  color: #EEEEEE;
+}
+
+body .cl-light-grey-2 {
+  color: #90BCB7;
+}
+
+body .font-lora {
+  font-family: 'Alegreya', serif !important;
+}
+/*# sourceMappingURL=karir.css.map */
